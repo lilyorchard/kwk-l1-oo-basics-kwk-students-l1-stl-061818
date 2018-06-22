@@ -17,7 +17,7 @@ def is_it_mean
 end
 
  def basic_facts
-    puts "this cat is an ovligatory carnivore"
+    puts "this cat is an obligatory carnivore"
     puts "and it has curved claws"
     puts "it has 30 teeth"
   end
