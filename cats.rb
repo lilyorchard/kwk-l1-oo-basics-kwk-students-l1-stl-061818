@@ -1,6 +1,6 @@
 class Cats
   
-  def intitialize(cute,fuzzy,mean)
+  def initialize(cute,fuzzy,mean)
     @cute = cute
     @fuzzy = fuzzy
     @mean = mean
