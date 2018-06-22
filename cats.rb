@@ -6,11 +6,7 @@ class Cats
     @mean = mean
   end
   
-  def basic_facts
-    puts "this cat is an ovligatory carnivore"
-    puts "and it has curved claws"
-    puts "it has 30 teeth"
-  end
+ 
   
   def is_it_cute
     @cute
@@ -19,6 +15,12 @@ class Cats
 def is_it_mean
   @mean
 end
+
+ def basic_facts
+    puts "this cat is an ovligatory carnivore"
+    puts "and it has curved claws"
+    puts "it has 30 teeth"
+  end
 
 end
 
@@ -29,5 +31,5 @@ garfield = Cats.new("has a bit of an attitude","up to debate","yes, he's hangry 
 # puts "Is Garfield cute? #{garfield.is_it_cute}"
 puts "Is Garfield mean? #{garfield.is_it_mean}"
 
-puts "is tiger mean? #{tiger.is_it_mean}"
+puts "is tiger mean? #{tiger.is_it_mean} #{tiger.basic_facts}"
 puts "give me some basic facts about tiger. #{tiger.basic_facts}"
