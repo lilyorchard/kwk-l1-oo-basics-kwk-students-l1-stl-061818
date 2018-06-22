@@ -10,6 +10,10 @@ class Cats
     @cute
   end
   
+def is_it_mean
+  @mean
+end
+
 end
 
 tiger = Cats.new("very","pretty fuzzy","super duper mean")
