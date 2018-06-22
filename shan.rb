@@ -1,1 +1,1 @@
-class shenanagans
+class shenanigans
