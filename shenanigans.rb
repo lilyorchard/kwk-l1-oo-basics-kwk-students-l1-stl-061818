@@ -28,5 +28,7 @@ sam = Shenanigans.new("has straight black hair", "has a coin necklace", "has sin
 alice = Shenanigans.new("has curled brown hair", "has a locket necklace", "has single dangling earrings")
 jessica = Shenanigans.new("has straight black hair", "has a marble necklace", "has double pierced ball earrings")
 
-puts "What are some facts about Lily? #{.trait_1} #{.trait_2} #{.trait_3}"
-  
+puts "What are some facts about Lily? #{lily.basic_similarities} #{lily.trait_1} #{lily.trait_2} #{lily.trait_3}"
+puts "What are some facts about Sam? #{sam.basic_similarities} #{sam.trait_1} #{sam.trait_2} #{sam.trait_3}"
+puts "What are some facts about Alice? #{alice.basic_similarities} #{alice.trait_1} #{alice.trait_2} #{alice.trait_3}"
+puts "What are some facts about Jessica? #{jessica.basic_similarities} #{jessica.trait_1} #{jessica.trait_2} #{jessica.trait_3}"
