@@ -22,7 +22,8 @@ end
 def earrings
   @trait_3
 end
-  
+
+end
 lily = Shenanigans.new("has curly red hair", "has layered necklaces", "has double pierced mismatch earrings")
 sam = Shenanigans.new("has straight black hair", "has a coin necklace", "has single pearl earrings")
 alice = Shenanigans.new("has curled brown hair", "has a locket necklace", "has single dangling earrings")
